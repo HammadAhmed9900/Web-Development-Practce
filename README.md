@@ -1,0 +1,1 @@
+A collection of my web development projects built while learning and practicing HTML, CSS, JavaScript, and responsive design. This repository showcases my progress through hands-on projects, layouts, UI components, and front-end development concepts.

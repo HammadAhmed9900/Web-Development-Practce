@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +8,13 @@
 </head>
 
 <body>
-    <img width="240"  src="image.png" alt="landscape image">
-    <br>
-    <table>
-        <caption>Employee Details</caption>
+
+    <img width="240" src="image.png" alt="Landscape Image">
+    <br><br>
+
+    <table border="1">
+        <caption><b>Employee Details</b></caption>
+
         <thead>
             <tr>
                 <th>Name</th>
@@ -20,37 +22,41 @@
                 <th>Fav Language</th>
             </tr>
         </thead>
+
         <tbody>
-
-
             <tr>
                 <td>Hammad</td>
-                <td>developer</td>
-                <td>Javascript</td>
+                <td>Developer</td>
+                <td>JavaScript</td>
             </tr>
 
             <tr>
                 <td colspan="2">Sam</td>
                 <td rowspan="2">Java</td>
             </tr>
+
             <tr>
-                <td colspan="2">Sam</td>
+                <td colspan="2">Ali</td>
             </tr>
         </tbody>
+
         <tfoot>
             <tr>
-                <td colspan="2">Sam</td>
-                <td rowspan="2">foot</td>
+                <td colspan="2">Total Employees</td>
+                <td>3</td>
             </tr>
         </tfoot>
+
     </table>
 
+    <br>
 
     <ul type="square">
-        <li>Hamad</li>
+        <li>Hammad</li>
         <li>Rohan</li>
         <li>Ali</li>
     </ul>
+
     <ol type="A">
         <li>Rohan</li>
         <li>Ali</li>
@@ -58,5 +64,4 @@
     </ol>
 
 </body>
-
 </html>
